@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QUINFA — Outfits</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <a href="#topo" class="logo">
+      <img
+                src="assets/2.png"
+                alt="QUINFA"
+            >
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#colecao">Coleção</a></li>
+      <li><a href="#tamanhos">Tamanhos</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button class="icon-btn" aria-label="Buscar">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+
+      <button class="icon-btn" aria-label="Sacola">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+      </button>
+
+      <button class="nav-toggle" aria-label="Abrir menu" id="navToggle">
+        <span></span><span></span><span></span>
+      </button>
+
+    </div>
+  </nav>
+</header>
+
+<main id="topo">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="wrap hero-copy" style="padding-left:0;">
+        <span class="hero-eyebrow">Drop 07 · disponível agora</span>
+        <h1>Roupa de<br>rua pra quem<br><span class="stroke">vive</span> na rua</h1>
+        <p class="lede">Moletons, calças e bonés feitos pesados de propósito. QUINFA é streetwear pensado pra São Paulo: sol, poeira e o trajeto até o trampo.</p>
+
+        <div class="hero-cta">
+          <a href="#colecao" class="btn">Ver o drop</a>
+          <a href="#tamanhos" class="btn ghost">Guia de tamanhos</a>
+        </div>
+
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <span class="hero-tag">100% quinfa</span>
+        <span class="hero-tag two">edição limitada</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- COLEÇÃO -->
+  <section id="colecao" class="light-section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Drop 07</h2>
+        <p>Seis peças da fornada atual. Escolha o tamanho antes de jogar na sacola — quando esgota, não volta.</p>
+      </div>
+
+      <div class="catalog-grid">
+
+        <article class="card">
+  <div class="card-visual">
+    <img src="assets/4.png" alt="Jorts Jeans Preto">
+    <span class="tag">Novo</span>
+    <span class="drop">D07 / 06</span>
+  </div>
+  
+  <div class="card-body">
+    <h3>Moletom Tommy hilfiger</h3>
+    <p class="desc">Moletom oversized com capuz e ziper.</p>
+    <div class="sizes" role="group" aria-label="Tamanhos disponíveis">
+      <button class="size-chip">P</button>
+      <button class="size-chip">M</button>
+      <button class="size-chip">G</button>
+      <button class="size-chip unavailable" disabled>GG</button>
+    </div>
+    <p class="price">R$ 159.99</p>
+    <button class="add-btn">Adicionar à sacola</button>
+  </div>
+</article>
+
+        <article class="card">
+  <div class="card-visual">
+    <img src="assets/3.png" alt="Camisa Estampada">
+    <span class="tag">Novo</span>
+    <span class="drop">D07 / 06</span>
+  </div>
+  
+  <div class="card-body">
+    <h3>Camisa Estampada</h3>
+    <p class="desc">Camisa Estampada oversized 100% algodão.</p>
+    <div class="sizes" role="group" aria-label="Tamanhos disponíveis">
+      <button class="size-chip">P</button>
+      <button class="size-chip">M</button>
+      <button class="size-chip">G</button>
+      <button class="size-chip unavailable" disabled>GG</button>
+    </div>
+    <p class="price">R$ 89.99</p>
+    <button class="add-btn">Adicionar à sacola</button>
+  </div>
+</article>
+
+        <article class="card">
+          <div class="card-visual">
+            <img src="assets/5.jpeg" alt="Jaqueta corta-vento">
+          <span class="tag">Última peça</span><span class="drop">D07 / 03</span></div>
+          <div class="card-body">
+            <h3>Jaqueta corta-vento</h3>
+            <p class="desc">Tecido impermeável, logo refletivo nas costas.</p>
+            <div class="sizes" role="group" aria-label="Tamanhos disponíveis">
+              <button class="size-chip">P</button>
+              <button class="size-chip">M</button>
+              <button class="size-chip">G</button>
+            </div>
+            <p class="price">R$ 799.99</p>
+            <button class="add-btn">Adicionar à sacola</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-visual"><span class="drop">D07 / 04</span></div>
+          <div class="card-body">
+            <h3>Tênis Nike</h3>
+            <p class="desc">Tênis Nike, solado antiderrapante, maior conforto e durabilidade.</p>
+            <div class="sizes" role="group" aria-label="Tamanhos disponíveis">
+              <button class="size-chip">38</button>
+              <button class="size-chip">39</button>
+              <button class="size-chip">40</button>
+              <button class="size-chip">41</button>
+            </div>
+            <p class="price">R$ 349.99</p>
+            <button class="add-btn">Adicionar à sacola</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-visual"><span class="drop">D07 / 05</span></div>
+          <div class="card-body">
+            <h3>Boné aba reta QUINFA</h3>
+            <p class="desc">Estrutura rígida, fivela ajustável, bordado 3D.</p>
+            <div class="sizes" role="group" aria-label="Tamanhos disponíveis">
+              <button class="size-chip">Único</button>
+            </div>
+            <p class="price">R$ 280.00</p>
+            <button class="add-btn">Adicionar à sacola</button>
+          </div>
+        </article>
+
+        <article class="card">
+  <div class="card-visual">
+    <img src="assets/1.png" alt="Jorts Jeans Preto">
+    <span class="tag">Novo</span>
+    <span class="drop">D07 / 06</span>
+  </div>
+  
+  <div class="card-body">
+    <h3>Jorts Jeans Preto</h3>
+    <p class="desc">Cintura elástica com cordão, bolsos laterais.</p>
+    <div class="sizes" role="group" aria-label="Tamanhos disponíveis">
+      <button class="size-chip">P</button>
+      <button class="size-chip">M</button>
+      <button class="size-chip">G</button>
+      <button class="size-chip unavailable" disabled>GG</button>
+    </div>
+    <p class="price">R$ 159.99</p>
+    <button class="add-btn">Adicionar à sacola</button>
+  </div>
+</article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TAMANHOS -->
+  <section id="tamanhos" class="light-section">
+    <div class="wrap size-guide">
+      <div class="size-note">
+        <h3>Como escolher o tamanho certo</h3>
+        <p>Nossos cortes são oversized por padrão. Se você curte a peça mais justa, desça um tamanho na tabela abaixo.</p>
+        <ul>
+          <li>Peito: medida na linha mais larga do tórax, peça deitada.</li>
+          <li>Cintura: na parte mais estreita do tronco.</li>
+          <li>Quadril: na parte mais larga do quadril.</li>
+          <li>Entre dois tamanhos? Fique no maior — é streetwear, não é pra ficar justo.</li>
+        </ul>
+      </div>
+      <table class="size-table">
+        <caption>Moletons, camisetas e jaquetas</caption>
+        <thead>
+          <tr><th>Tamanho</th><th>Peito (cm)</th><th>Cintura (cm)</th><th>Quadril (cm)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>P</td><td>96–100</td><td>74–78</td><td>96–100</td></tr>
+          <tr><td>M</td><td>101–106</td><td>79–84</td><td>101–106</td></tr>
+          <tr><td>G</td><td>107–113</td><td>85–91</td><td>107–113</td></tr>
+          <tr><td>GG</td><td>114–121</td><td>92–99</td><td>114–121</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre">
+    <div class="wrap about-grid">
+      <div>
+        <h2 style="font-size:clamp(30px,3.6vw,44px);margin-bottom:20px;">Feito na quebrada, usado no mundo</h2>
+        <p>QUINFA nasceu em 2026 num quarto de fundo em São Paulo, imprimindo camisetas pra vender na saída da escola. Hoje é uma marca de drops limitados, com peças pesadas, estampas autorais e zero produção em massa.</p>
+        <p>Cada drop sai em lote fechado. Quando esgota, some — e o próximo já é outra ideia.</p>
+        <div class="stats">
+          <div class="stat"><b>07</b><span>drops lançados</span></div>
+          <div class="stat"><b>500g</b><span>moletom pesado</span></div>
+          <div class="stat"><b>100%</b><span>produção nacional</span></div>
+        </div>
+      </div>
+      <div class="about-video" aria-hidden="true">
+        <video class="absolute-video" src="assets/video.mp4" autoplay muted loop playsinline></video>
+        <span class="stamp">São Paulo</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="light-section">
+    <div class="wrap contact-grid">
+      <div class="contact-info">
+        <h3>Fala com a gente</h3>
+        <p>Dúvida sobre tamanho, troca ou colab — responde gente de verdade, não robô.</p>
+
+        <div class="info-line"><b>Loja</b><span>Rua Augusta, 1200 — Consolação, São Paulo, SP</span></div>
+        <div class="info-line"><b>Horário</b><span>Terça a sábado, das 12h às 20h</span></div>
+        <div class="info-line"><b>Telefone</b><span>(11) 4002-8922</span></div>
+        <div class="info-line"><b>E-mail</b><span>drops@quinfa.com.br</span></div>
+
+        <div class="social-row">
+          <a href="#" target="_blank" rel="noopener">Instagram</a>
+          <a href="#" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="#" target="_blank" rel="noopener">TikTok</a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="form-row">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-row">
+          <label for="assunto">Assunto</label>
+          <input type="text" id="assunto" name="assunto" placeholder="Ex.: dúvida sobre o drop 07">
+        </div>
+        <div class="form-row">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" required></textarea>
+        </div>
+        <button type="submit" class="btn form-submit">Enviar mensagem</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-grid">
+    <span>© 2026 QUINFA OUTFITS. Todos os direitos reservados.</span>
+    <ul class="footer-links">
+      <li><a href="#">Trocas e devoluções</a></li>
+      <li><a href="#">Política de privacidade</a></li>
+      <li><a href="#colecao">Coleção</a></li>
+    </ul>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
