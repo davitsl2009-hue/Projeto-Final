@@ -1,45 +1,113 @@
-# 👗 QUINFA OUTFIT - Loja de Roupas
+# 🖤 QUINFA OUTFIT
 
-**Categoria:** Comércio
-**Tipo de projeto:** `catalogo_carrinho`
+> **Vista a rua. Carregue a atitude.**
+> Site de moda **streetwear** com visual urbano, peças autorais e identidade própria.
 
-Catálogo com carrinho de compras (JS).
+---
 
-## 🎯 Conceitos abordados
-- Estrutura HTML semântica (`header`, `section`, `article`, `footer`)
-- Meta tags, acessibilidade básica e SEO
-- CSS moderno: variáveis, Flexbox, Grid, transições, media queries
-- Layout responsivo (mobile-first)
-- JavaScript: manipulação do DOM, eventos, validação de formulário
+## 📌 Sobre o projeto
 
-- Estado de carrinho de compras e renderização dinâmica
+A **QUINFA OUTFIT** é um site de loja de roupas streetwear desenvolvido apenas com **front-end**. O projeto apresenta a marca, as coleções e os produtos em um layout moderno, responsivo e inspirado na cultura urbana.
 
-## 📂 Estrutura de arquivos
+---
+
+## 🔥 Funcionalidades
+
+- 🛍️ Vitrine de produtos (camisetas, moletons, calças, bonés e acessórios)
+- 🗂️ Seções de coleções e destaques
+- 📱 Layout responsivo (celular, tablet e computador)
+- 🎨 Visual streetwear com identidade própria
+- 📬 Links de contato e redes sociais
+
+> Ajuste esta lista conforme o que o site realmente tem.
+
+---
+
+## 🧰 Tecnologias utilizadas
+
+| Tecnologia | Uso |
+| --- | --- |
+| HTML5 | Estrutura das páginas |
+| CSS3 | Estilização, Flexbox, Grid e responsividade |
+| Render | Hospedagem do site |
+
+> Se usar JavaScript, adicione aqui.
+
+---
+
+## 📂 Estrutura do projeto
+
 ```
-├── index.html      # estrutura da página
-├── styles.css      # estilos e responsividade
-├── script.js       # interatividade
-└── README.md       # este arquivo
+quinfa-outfit/
+├── index.html
+├── css/
+│   └── style.css
+├── img/
+│   └── (imagens dos produtos e da marca)
+└── README.md
 ```
 
-## ▶️ Como executar
-Basta abrir o arquivo `index.html` em qualquer navegador moderno.
-Não precisa de servidor — é HTML, CSS e JavaScript puro.
+> Adapte para a estrutura real das suas pastas.
 
-## 💡 Exercícios de fixação sugeridos
+---
 
-1. Persistir o carrinho no `localStorage` (manter ao recarregar).
-2. Adicionar campo de **cupom de desconto** (ex: "ALUNO10" = 10% off).
-3. Calcular **frete** baseado no CEP digitado.
-4. Adicionar botão "+ / -" em cada item dentro do carrinho.
-5. Bloquear adicionar mais que 10 unidades de um item.
-6. Enviar o pedido formatado para o WhatsApp via `https://wa.me/?text=...`.
-7. Criar uma página `pedido.html` que recebe o resumo via query string.
-8. Implementar **favoritos** (❤️) em cada produto com lista separada.
+## ⚙️ Como rodar localmente
 
+Como o projeto é só front-end, não precisa instalar nada:
 
-## 📚 Sugestão de aula
-1. Mostrar o projeto **pronto** rodando para o aluno entender o objetivo final.
-2. **Apagar** partes do código e refazer junto com a turma explicando cada conceito.
-3. Aplicar 2 ou 3 exercícios de fixação como tarefa.
-4. Estimular **publicação no GitHub Pages** (Módulo 11 da ementa).
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/quinfa-outfit.git
+   ```
+
+2. Entre na pasta:
+
+   ```bash
+   cd quinfa-outfit
+   ```
+
+3. Abra o arquivo `index.html` no navegador (ou use a extensão **Live Server** do VS Code).
+
+---
+
+## 🚀 Deploy no Render
+
+1. Envie o projeto para o GitHub.
+2. No Render, crie um novo **Static Site** conectado ao repositório.
+3. Deixe o **Build Command** vazio.
+4. Defina o **Publish Directory** como `.` (raiz do projeto).
+5. Clique em **Create Static Site** e aguarde o deploy.
+
+---
+
+## 🎨 Identidade visual
+
+| Elemento | Definição |
+| --- | --- |
+| Estilo | Streetwear / urbano |
+| Cores | Preto `#0D0D0D`, branco `#FFFFFF`, cinza `#8A8A8A` e um detalhe de destaque (ex.: neon) |
+| Tipografia | Fontes bold, condensadas e em caixa alta |
+| Vibe | Autêntica, ousada e minimalista |
+
+---
+
+## 🗺️ Próximos passos
+
+- [x] Estrutura inicial do site
+- [x] Vitrine de produtos
+- [ ] Novas coleções (drops)
+- [ ] Página de contato
+- [ ] Animações e melhorias de responsividade
+
+---
+
+## 📬 Contato
+
+- 📸 Instagram: [@quinfaoutfit](https://instagram.com/quinfaoutfit)
+- 📧 E-mail: contato@quinfaoutfit.com
+- 🌐 Site: https://seu-site.onrender.com
+
+---
+
+<p align="center"><b>QUINFA OUTFIT</b> — feito para quem tem estilo. 🖤</p>
